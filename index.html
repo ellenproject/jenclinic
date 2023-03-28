@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JenClinic</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./js/plugins/fullPage/fullpage.css">
+    <link rel="stylesheet" href="./js/plugins/simpleLightbox/simpleLightbox.min.css">
+    <link rel="stylesheet" href="./sass/index.css">
+</head>
+<body data-aos-easing="ease" data-aos-duration="2000" data-aos-delay="100">
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo light"><img src="./img/logo-light.png" alt=""></a>
+        <a href="index.html" class="navbar-logo dark"><img src="./img/logo-dark.png" alt=""></a>
+        <label for="switch"><i class="bi bi-list"></i></label>
+        <input type="checkbox" id="switch">
+        <div class="navbar-content">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="" class="nav-link">關於珍妍</a></li>
+                <li class="nav-item"><a href="" class="nav-link">醫療團隊</a></li>
+                <li class="nav-item"><a href="" class="nav-link">醫美項目</a></li>
+                <li class="nav-item"><a href="" class="nav-link">素人案例</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="" class="line"><i class="bi bi-chat"></i></a>
+            </div>
+        </div>
+        <div class="deco-line">
+            <div class="vertical right"></div>
+        </div>
+    </nav>
+    <main id="fullpage" class="main-container fullpage-wrapper">
+        <section class="section kv">
+            <div class="kv-banner">
+                <!-- <div class="Img"><img src="./img/kv-bg-01.jpg" alt=""></div> -->
+                <div class="video">
+                    <video muted loop autoplay playsinline data-autoplay>
+                        <source src="./img/pexels-c-technical-5821504.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="slogan"><h2 class="text-4xl">珍視你的美麗容顏</h2></div>
+            </div>
+            <div class="kv-decoline"></div>
+        </section>
+
+        <section class="section clinic">
+            <div class="clinic-banner">
+                <div class="Img"><img src="./img/clinic-bg-01.jpg" alt=""></div>
+            </div>
+            <div class="clinic-icon">
+                <ul>
+                    <li class="aos-init aos-animate" data-aos-delay="500" data-aos="fade-in">
+                        <div class="Img"><img src="./img/clinic-icon-01.png" alt=""></div>
+                        <span class="text-lg">完整衛教</span>
+                    </li>
+                    <li class="aos-init aos-animate" data-aos-delay="800" data-aos="fade-in">
+                        <div class="Img"><img src="./img/clinic-icon-02.png" alt=""></div>
+                        <span class="text-lg">手術療程</span>
+                    </li>
+                    <li class="aos-init aos-animate" data-aos-delay="1100" data-aos="fade-in">
+                        <div class="Img"><img src="./img/clinic-icon-03.png" alt=""></div>
+                        <span class="text-lg">術後修護</span>
+                    </li>
+                    <li class="aos-init aos-animate" data-aos-delay="1400" data-aos="fade-in">
+                        <div class="Img"><img src="./img/clinic-icon-04.png" alt=""></div>
+                        <span class="text-lg">回診追蹤</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="clinic-title aos-init aos-animate" data-aos="fade-up">
+                <h3 class="text-4xl">Jen Clinic</h3>
+                <h4 class="text-2xl">呵護您珍貴的肌膚</h4>
+                <h5 class="text-base">一站式療程 <br>有感改善膚質，晉升無瑕美肌</h5>
+            </div>
+        </section>
+
+        <section class="section medicine tabs-container">
+            <div class="container">
+                <div class="medicine-img aos-init aos-animate" data-aos-duration="1500" data-aos="fade-in">
+                    <div class="swiper show show--1 show--active">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/medicine-model-05.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/medicine-model-06.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/medicine-model-07.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/medicine-model-08.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-button-prev"><i class="bi bi-arrow-left-circle-fill"></i></div>
+                        <div class="swiper-button-next"><i class="bi bi-arrow-right-circle-fill"></i></div>
+                    </div>
+                    <div class="swiper show show--2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/medicine-model-09.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/medicine-model-10.jpg" alt=""></div>
+                            </div>
+                        <div class="swiper-button-prev"><i class="bi bi-arrow-left-circle-fill"></i></div>
+                        <div class="swiper-button-next"><i class="bi bi-arrow-right-circle-fill"></i></div>
+                    </div>
+                    <div class="swiper show show--3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/medicine-model-11.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/medicine-model-12.jpg" alt=""></div>
+                            </div>
+                        <div class="swiper-button-prev"><i class="bi bi-arrow-left-circle-fill"></i></div>
+                        <div class="swiper-button-next"><i class="bi bi-arrow-right-circle-fill"></i></div>
+                    </div>
+                    <div class="swiper show show--4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/medicine-model-13.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/medicine-model-14.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-button-prev"><i class="bi bi-arrow-left-circle-fill"></i></div>
+                        <div class="swiper-button-next"><i class="bi bi-arrow-right-circle-fill"></i></div>
+                    </div>
+                </div>
+                <div class="medicine-txt aos-init aos-animate" data-aos-duration="500" data-aos="fade-up">
+                    <div class="medicine-txt-wrap">
+                        <div class="badge"><span class="text-base">微整注射</span></div>
+                        <ul class="medicine-txt-tabs">
+                            <li data-item="1"><h2 class="text-5xl">玻尿酸</h2></li>
+                            <li data-item="2"><h2 class="text-5xl">肉毒桿菌</h2></li>
+                            <li data-item="3"><h2 class="text-5xl">洢蓮絲</h2></li>
+                            <li data-item="4"><h2 class="text-5xl">舒顏萃</h2></li>
+                        </ul>
+                        <ul class="medicine-txt-contents">
+                            <li class="item item--1 item--active">
+                                <div class="collapse">
+                                    <a class="subtitle text-xl active">適合對象</a>
+                                    <dl class="accordion accordion--1 accordion--active text-base appear">
+                                        <dt>• 老化導致的靜態皺紋（法令紋、木偶紋）</dt>
+                                        <dt>• 填補凹陷處（隆鼻、下巴、填補夫妻宮、淚溝、黑眼圈等）</dt>
+                                        <dt>• 豐潤皮膚（豐唇、蘋果肌、額頭、臥蠶等）</dt>
+                                        <dt>• 臉型不對稱（鼻形雕塑、下巴短或下巴內縮）、嘴唇線條修飾</dt>
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">玻尿酸種類</a>
+                                    <dl class="accordion accordion--2 text-base">
+                                        <dt>顆粒型：交聯方式：雙相交聯
+                                        優點：立體度佳、較硬挺
+                                        缺點：注射推力大、線條較不自然</dt>
+                                        <dt>凝膠型：交聯方式：單相交聯
+                                        優點：柔軟、自然飽滿、注射容易
+                                        缺點：強化立體感需要、增加施打劑量</dt>
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">各品牌說明</a>
+                                    <dl class="accordion accordion--3 text-base">
+                                        <dt><a href="">DermaFiller德瑪芙</a></dt>
+                                        <dt><a href="">RESTYLANE瑞絲朗</a></dt>
+                                        <dt><a href="">JUVÉDERM喬雅登</a></dt>
+                                        <dt><a href="">喬雅登Volite先進的肌膚保水新革命</a></dt>
+                                        <dt><a href="">e.p.t.q.艾必提 蜂巢玻尿酸</a></dt>
+                                        <dt><a href="">e.p.t.q.蜂巢玻尿酸 打造韓系貓系顏</a></dt>
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">注射療程說明</a>
+                                    <dl class="accordion accordion--4 text-base">
+                                        <dt><a href="">• 療程前後須知</a></dt>
+                                        <dt><a href="">• 安全注射關鍵</a></dt>
+                                        <dt><a href="">• 注射不同部位差異</a></dt>
+                                        <dt><a href="">• 注射的常見風險</a></dt>
+                                        <dt><a href="">• 失明比例看這裡</a></dt>
+                                        <dt><a href="">• 失明風險一招躲開</a></dt>
+                                        <dt><a href="">• 常見問題</a></dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="item item--2">
+                                <div class="collapse">
+                                    <a class="subtitle text-xl active">適合對象</a>
+                                    <dl class="accordion accordion--1 accordion--active text-base appear">
+                                        <dt>• 改善動態紋：抬頭紋、魚尾紋、皺眉紋、皺鼻紋</dt>
+                                        <dt>• 改善國字臉：咀嚼肌肥大</dt>
+                                        <dt>• 身體部位：腋下抑汗、軟化肩頸、小腿肌肉發逹</dt>
+                                        <dt>• BOTOX適用於慢性偏頭痛成人病人的頭痛預防性治療</dt>
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">肉毒桿菌效果</a>
+                                    <dl class="accordion accordion--2 text-base">
+                                        <dt>除皺：</dt>
+                                        <dt>效果呈現期：3-7天</dt>
+                                        <dt>效果維持期：3-6備月</dt>
+                                        <dt>建議回診時間：1週後</dt>
+                                        <dt>再次療程時間：3-6個月</dt>
+                                        <dt>暫時副作用：治療局部有時會出現紅腫、
+                                        瘀青狀況，約1-2週後消退。</dt>
+                                        <dt>V臉</dt>
+                                        <dt>效果呈現期：1個月</dt>
+                                        <dt>效果維持期：4-6個月</dt>
+                                        <dt>建議回診時間：1個月後</dt>
+                                        <dt>再次療程時間：3-6個月</dt>
+                                        <dt>暫時副作用：剛注射後會有咬肌無力，
+                                        此為暫時性的狀況，是正常反應。</dt>
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">各品牌說明</a>
+                                    <dl class="accordion accordion--3 text-base">
+                                        <dt><a href="">Botox保妥適肉毒桿菌素 歷史悠久的美國品牌</a></dt>
+                                        <dt><a href="">Dysport英國皇家肉毒 作用時間快</a></dt>
+                                        <dt><a href="">Letybo保提拉肉毒桿菌 韓國合法品牌</a></dt>
+                                        <dt><a href="">Xeomin淨優明肉毒桿菌 德國品牌</a></dt>
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">注射療程說明</a>
+                                    <dl class="accordion accordion--4 text-base">
+                                        <dt><a href="">• 療程前後須知</a></dt>
+                                        <dt><a href="">• 安全注射關鍵</a></dt>
+                                        <dt><a href="">• 注射不同部位差異</a></dt>
+                                        <dt><a href="">• 注射的常見風險</a></dt>
+                                        <dt><a href="">• 肉毒桿菌相關文章</a></dt>
+                                        <dt><a href="">• 常見問題</a></dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="item item--3">
+                                <div class="collapse">
+                                    <a class="subtitle text-xl active">肌活關鍵＝立即豐潤+持久度</a>
+                                    <dl class="accordion accordion--1 accordion--active text-base appear">
+                                        隨著年齡增長，膠原蛋白逐漸流失，肌膚彈性降低，
+                                        支撐力下滑，導致肌膚下垂、鬆垮，進而產生皺紋。
+                                        微聚酯晶球新型增生劑，俗稱「洢蓮絲Ellanse」，
+                                        具有傳統玻尿酸「立即填充」的特性。
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">洢蓮絲效果</a>
+                                    <dl class="accordion accordion--2 text-base">
+                                        洢蓮絲可改善臉部塌陷、皺紋等問題，
+                                        基本上全臉大部分的位置都可以施打，
+                                        但是不建議打在唇眉間、上眼皮這些的地方。
+                                        施打後，擁有立即性的效果，等到載體慢慢的吸收後，
+                                        後續的晶球刺激結締組織增生，維持期可以達到1-2年。
+                                        另外要特別注意，注射後的24小時內，形狀會固定，
+                                        期間無須冰敷、熱敷，但也要避免過度觸碰注射區塊，
+                                        並且於短期內避免劇烈運動，與出入高溫場所，
+                                        如三溫暖、烤箱、蒸氣間。
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">注射療程說明</a>
+                                    <dl class="accordion accordion--4 text-base">
+                                        <dt><a href="">• 療程前後須知</a></dt>
+                                        <dt><a href="">• 安全注射關鍵</a></dt>
+                                        <dt><a href="">• 注射不同部位差異</a></dt>
+                                        <dt><a href="">• 注射的常見風險</a></dt>
+                                        <dt><a href="">• 洢蓮絲的併發症與處理</a></dt>
+                                        <dt><a href="">• 常見問題</a></dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="item item--4">
+                                <div class="collapse">
+                                    <a class="subtitle text-xl active">對症下藥才能有效對抗老化</a>
+                                    <dl class="accordion accordion--1 accordion--active text-base appear">
+                                        隨著年紀增長，臉部會開始產生下垂、
+                                        皺紋和凹陷等老化現象，臉部老化是因
+                                        人體脂肪細胞功能下降導致體積縮小，
+                                        還有骨質與膠原蛋白的流失。
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">舒顏萃Sculptra-4D童妍針</a>
+                                    <dl class="accordion accordion--2 text-base">
+                                        常見的醫學美容填充劑，多半以單點的修補為主，
+                                        難以滿足全臉修整的需求，Sculptra舒顏萃可以
+                                        改善皮膚的凹陷，特別是鼻唇溝、皮膚皺褶及皺紋，
+                                        透過注射到達指定部位，達到填補皮膚凹陷、
+                                        全臉輪廓重塑的目的。Sculptra舒顏萃內固態
+                                        聚左旋乳酸其顆粒小、分散均勻，注射至真皮
+                                        深層及皮下層填補軟組織，透過微粒逐漸包覆
+                                        施打部位的軟組織後，經過數週即能獲得改善。
+                                    </dl>
+                                </div>
+                                <div class="collapse">
+                                    <a class="subtitle text-xl">注射療程說明</a>
+                                    <dl class="accordion accordion--4 text-base">
+                                        <dt><a href="">• 療程前後須知</a></dt>
+                                        <dt><a href="">• 安全注射關鍵</a></dt>
+                                        <dt><a href="">• 注射不同部位差異</a></dt>
+                                        <dt><a href="">• 注射的常見風險</a></dt>
+                                        <dt><a href="">• 常見反應與治療次數</a></dt>
+                                        <dt><a href="">• 常見問題</a></dt>
+                                    </dl>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section case">
+            <div class="container">
+                <div class="case-title"><h2 class="text-5xl">案例分享</h2></div>
+                <div class="gallery case-list aos-init aos-animate" data-aos-duration="500" data-aos="fade-up">
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">玻尿酸</p>
+                            <p class="text-lg">額頭、鼻梁</p>
+                        </div>
+                        <a href="./img/medicine-model-01.jpg" class="link" title="美麗見證01"><img src="./img/medicine-model-01.jpg" alt="" title=""/></a>
+                    </div>
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">玻尿酸</p>
+                            <p class="text-lg">下巴</p>
+                        </div>
+                        <a href="./img/medicine-model-02.jpg" class="link" title="美麗見證02"><img src="./img/medicine-model-02.jpg" alt="" title=""/></a>
+                    </div>
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">玻尿酸</p>
+                            <p class="text-lg">下巴、臥蠶</p>
+                        </div>
+                        <a href="./img/medicine-model-03.jpg" class="link" title="美麗見證03"><img src="./img/medicine-model-03.jpg" alt="" title=""/></a>
+                    </div>
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">肉毒桿菌</p>
+                            <p class="text-lg">抬頭紋、咀嚼肌</p>
+                        </div>
+                        <a href="./img/medicine-model-04.jpg" class="link" title="美麗見證04"><img src="./img/medicine-model-04.jpg" alt="" title=""/></a>
+                    </div>
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">肉毒桿菌</p>
+                            <p class="text-lg">咀嚼肌</p>
+                        </div>
+                        <a href="./img/medicine-model-05.jpg" class="link" title="美麗見證05"><img src="./img/medicine-model-05.jpg" alt="" title=""/></a>
+                    </div>
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">洢蓮絲</p>
+                            <p class="text-lg">額頭</p>
+                        </div>
+                        <a href="./img/medicine-model-06.jpg" class="link" title="美麗見證06"><img src="./img/medicine-model-06.jpg" alt="" title=""/></a>
+                    </div>
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">舒顏萃</p>
+                            <p class="text-lg">淚溝</p>
+                        </div>
+                        <a href="./img/medicine-model-07.jpg" class="link" title="美麗見證07"><img src="./img/medicine-model-07.jpg" alt="" title=""/></a>
+                    </div>
+                    <div class="wrap case-list-item">
+                        <div class="txt">
+                            <p class="text-base">舒顏萃</p>
+                            <p class="text-lg">法令紋、豐頰</p>
+                        </div>
+                        <a href="./img/medicine-model-08.jpg" class="link" title="美麗見證08"><img src="./img/medicine-model-08.jpg" alt="" title=""/></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section footer">
+            <div class="container">
+                <div class="wrap">
+                    <div class="wrap-item">
+                        <h5 class="text-2xl">忠孝本院</h5>
+                        <p class="text-base">台北市大安區忠孝東路四段212號4樓<br>
+                            電話：(02)7730-8286<br>
+                            ﹙捷運忠孝敦化站3號出口﹚</p>
+                    </div>
+                    <div class="wrap-item">
+                        <h5 class="text-2xl">中山分院</h5>
+                        <p class="text-base">台北市中山區南京東路二段20號3樓<br>
+                            電話：(02)7729-6711<br>
+                            ﹙捷運松江南京站1號出口﹚</p>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="wrap-item">
+                        <div class="wrap-item-s">
+                            <a href=""><p class="text-base">微整注射</p></a>
+                            <a href=""><p class="text-base">雷射光療</p></a>
+                        </div>
+                        <div class="wrap-item-s">
+                            <a href=""><p class="text-base">整形外科</p></a>
+                            <a href=""><p class="text-base">儀器療程</p></a>
+                        </div>
+                    </div>
+                    <div class="wrap-item">
+                        <div class="wrap-item-s">
+                            <a href=""><p class="text-base">拉提緊緻</p></a>
+                            <a href=""><p class="text-base">纖盈塑身</p></a>
+                        </div>
+                        <div class="wrap-item-s">
+                            <a href=""><p class="text-base">基礎護理</p></a>
+                            <a href=""><p class="text-base">術後保養</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/plugins/jquery-3.6.0.min.js"></script>
+<script src="./js/plugins/fullPage/fullpage.min.js"></script>
+<script src="./js/plugins/simpleLightbox/simpleLightbox.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
